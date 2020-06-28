@@ -32,16 +32,30 @@ h4 {}
 
 /*box-model*/
 
-/*centering and spacing elements*/
-.flex-center {}
+/*grid layout*/
 
-.flex-space {}
+.grid-header {
+
+    grid-column: 1 / -1;
+}
+
+/*centering and spacing elements*/
+.flex-center {
+
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex-space {
+    display: flex;
+    justify-content: flex-end;   
+}
 
 .flex-left {}
 
 /*width*/
 
-.svg{
+.svg {
     display: block;
     pointer-events: none;
     width: 15%;
@@ -50,6 +64,39 @@ h4 {}
 
 
 }
+
+.svg-commit {
+    display: block;
+    pointer-events: none;
+    width: 15%;
+    height: 15%;
+
+}
+
+img     
+.fa {
+    display: block;
+    width: 15%;
+    height: 15%;
+}
+
+img{
+    display: block;
+    width: 7%;
+    height: 7%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.fa fa-caret-down {}
 
 /*---------------------*/
 /*Typographic*/

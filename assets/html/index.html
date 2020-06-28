@@ -12,7 +12,7 @@
 
 <body>
     <!--my header the upper section of my page-->
-    <header>
+    <header class="grid-header">
         <div class="flex-center">
             <!--f-main 1-->
 
@@ -35,7 +35,7 @@
                 </button>
             </form>
 
-            <div class="flex-space">
+            <div class="flex-space logo-img">
                 <!--F-s-1-->
 
                 <img src="/ytube/assets/images/film.svg" alt=" a vedio logo">
@@ -68,8 +68,7 @@
                     <p>3,817 views &#8226; Feb 1, 2019</p>
 
                     <!--like-->
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="like svg">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="like svg">
                         <g class="like svg">
                             <path
                                 d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
@@ -78,9 +77,8 @@
                     </svg>
                     <!--dislike-->
 
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="dis svg">
-                        
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="dis svg">
+
                         <g class="dis svg">
                             <path
                                 d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
@@ -88,9 +86,7 @@
                         </g>
                     </svg>
                     <!--share-->
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="share svg"
-                       >
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="share svg">
                         <g class="share svg">
 
                             <path
@@ -101,9 +97,8 @@
                     <p>Share</p>
                     <!--download-->
 
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="download svg">
-                        
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="download svg">
+
                         <g class="download svg">
                             <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
                                 class="download svg"></path>
@@ -112,9 +107,8 @@
                     <p>Save</p>
                     <!--dot dot dot -->
 
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="dot svg">
-                      
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="dot svg">
+
                         <g class="dot svg">
                             <circle cx="5" cy="12" r="2" class="dot svg"></circle>
                             <circle cx="12" cy="12" r="2" class="dot svg"></circle>
@@ -168,22 +162,42 @@
             <!--user cooment the input section-->
             <article>
 
-                <img src="" alt="">
+                <img src="/ytube/assets/images/user.svg" alt="user logo">
                 <label class="commit" for="commit">
                     <input id="commit" type="text" name="commit" placeholder="Add a public comment...">
                 </label>
             </article>
 
             <article>
-                <img src="" alt="">
-                <p></p>
-                <p></p>
+                <img src="/ytube/assets/images/user.svg" alt="user logo">
+                <p>user name</p>
+                <p>1 year ago</p>
                 <div flex-left>
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <!--f-left-sub2-->
+
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="like svg-commit">
+                        <g class="like svg-commit">
+                            <path
+                                d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                                class="like svg-commit"></path>
+                        </g>
+                    </svg>
+                    <p>174</p>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="dis svg-commit">
+
+                        <g class="dis svg-commit">
+                            <path
+                                d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                                class="dis svg-commit"></path>
+                        </g>
+                    </svg>
                     <p>Replay</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>  
+                    <p>View 13 replies</p>
                 </div>
-                <img src="" alt="">
+                <img src="/ytube/assets/images/user.svg" alt="user logo">
                 <p>View replay</p>
             </article>
 
@@ -203,7 +217,7 @@
                     <span class="slide round"></span>
 
                 </label>
-                <div class="aside-img flex">
+                <div class="aside-img flex-center">
                     <a href="#"><img src="/ytube/assets/images/aside/japan.jpg" alt="japanese store"></a>
                     <h4>Lorem, ipsum dolor.
                     </h4>
@@ -217,7 +231,7 @@
 
             <!--the vedio sections-->
 
-            <div class="side-flex">
+            <div class="side flex-space">
 
                 <section class="aside-img">
                     <a href=""><img src="/ytube/assets/images/aside/home.jpg" alt=""> </a>
