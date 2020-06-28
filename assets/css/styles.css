@@ -7,6 +7,7 @@
     border: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /*root-var*/
@@ -17,6 +18,7 @@
     /*works*/
     --mid-font-famiy: font-family: 'Roboto', sans-serif;
     /*not working no fallback*/
+    --para-font-color: rgb(110, 110, 110);
 }
 
 /*debug*/
@@ -26,11 +28,30 @@ h4 {}
 /*body*/
 
 /*position*/
+/*---------------------*/
 
 /*box-model*/
 
+/*centering and spacing elements*/
+.flex-center {}
+
+.flex-space {}
+
+.flex-left {}
+
+/*width*/
+
+.svg{
+    display: block;
+    pointer-events: none;
+    width: 15%;
+    height: 15%;
 
 
+
+}
+
+/*---------------------*/
 /*Typographic*/
 
 /*h1*/
@@ -42,12 +63,15 @@ h4 {}
 
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 21px;
+    color: var(--para-font-color);
 }
+
+.commit {}
 
 /*mid roboto*/
 
@@ -62,3 +86,5 @@ body {
 header {
     background-color: var(--header-bg-color);
 }
+
+.sub-button {}
