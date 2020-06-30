@@ -83,7 +83,9 @@ main {
 .flex-space {
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
 
 }
 
@@ -94,12 +96,20 @@ main {
 
 .flex-start {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    align-items: center;
     width: 200px;
     align-items: center;
 }
 
+.block>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid red;
+
+}
 /*width*/
 
 .svg {
@@ -169,6 +179,12 @@ iframe {
 
 }
 
+hr {
+    margin: 0.5em auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
 .fa fa-caret-down {}
 
 /*---------------------*/
@@ -192,7 +208,11 @@ p {
     color: var(--para-font-color);
 }
 
-.commit {}
+.commit {
+  width: 53rem;
+  border: 1px solid black;
+
+}
 
 /*mid roboto*/
 

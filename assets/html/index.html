@@ -175,14 +175,20 @@
                         </svg>
                     </div>
                 </div>
-
                 <hr>
+                <div></div>
                 <!--line-->
-                <div class="flex-space">
+                <div class="flex-center">
                     <!--f-s2-->
-                    <img src="/ytube/assets/images/user.svg" alt="">
-                    <h4>Username</h4>
-                    <p>321K subscribers</p>
+                    <div class="flex-start">
+                        <img src="/ytube/assets/images/user.svg" alt="">
+                        <div class="block">
+                            <h4>Username</h4>
+
+                            <p>315K subscribers</p>
+                        </div>
+                    </div>
+
 
                     <form action="#">
                         <label for="sub" class="sub-button">
@@ -191,6 +197,7 @@
                     </form>
 
                 </div>
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil exercitationem veritatis,
                     culpa
                     est nobis maxime magni dolore tempora necessitatibus odit debitis? Vel ex omnis minus quae deleniti
@@ -203,27 +210,34 @@
             <!--the comments section upper sec-->
             <article class="comment-section">
 
-                <div class="flex-left">
+                <div class="flex-start">
                     <p>1000 comments</p>
                     <!--sort by svg-->
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="sort svg">
+                    <div class="flex-center">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="sort svg">
 
-                        <g class="sort svg">
-                            <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z" class=" sort svg"></path>
-                            <path d="M0 0h24v24H0z" fill="none" class="sort svg"></path>
-                        </g>
-                    </svg>
-                    <p>Sort by</p>
+                            <g class="sort svg">
+                                <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z" class=" sort svg"></path>
+                                <path d="M0 0h24v24H0z" fill="none" class="sort svg"></path>
+                            </g>
+                        </svg>
+                        <p>Sort by</p>
+                    </div>
                 </div>
 
             </article>
             <!--user cooment the input section-->
             <article>
+                <div class="flex-start">
+                    <img src="/ytube/assets/images/user.svg" alt="user logo">
+                    <label class="commit" for="commit">
+                        <input class="commit" id="commit" type="text" name="commit" placeholder="Add a public comment...">
+                        <hr>
 
-                <img src="/ytube/assets/images/user.svg" alt="user logo">
-                <label class="commit" for="commit">
-                    <input id="commit" type="text" name="commit" placeholder="Add a public comment...">
-                </label>
+                    </label>
+
+                </div>
+
             </article>
 
             <article>
