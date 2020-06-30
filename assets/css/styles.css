@@ -154,6 +154,13 @@ img {
     height: 24px;
 }
 
+iframe{
+
+    width: 55rem;
+    height: 30rem;
+
+}
+
 .fa fa-caret-down {}
 
 /*---------------------*/
