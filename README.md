@@ -16,6 +16,7 @@ Problems and issues
 1. very hard to find youtube icons so i had to find something similar in flaticons / or copy paste the SVG from youtube page itself using inspect.
 2. vs live running into diffrent workspace issue/ close all the other workspaces 
 3. images short cut not working for now im using relative links and the whole path.
+4. youtube logo width issue: found out it has white background so i need to find one with tran background.
 
 
 git - git hub 
