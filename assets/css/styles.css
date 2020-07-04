@@ -32,6 +32,7 @@ header {
 
   background-color: white;
 }
+
 /*
 
 .fa {
@@ -115,6 +116,22 @@ img {
 /*Notes: declaration order is by type*/
 
 /*--------------header--------------------------*/
+
+
+
+a {
+  color:grey;
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+a:visited {
+}
 header {
   /* Positioning */
   /* Display & Box Model */
@@ -125,6 +142,8 @@ header {
   /* Other */
 }
 
+
+
 .fa {
   /* Positioning */
   /* Display & Box Model */
@@ -132,14 +151,18 @@ header {
   height: 28px;
 
   /* Color */
+
   /* Text */
   /* Other */
 
 
 }
-.fa-bars{
+
+}
+.fa-bars {
   margin-left: 20px;
   margin-top: 10px;
+  color:red;
 }
 
 .logo {
@@ -171,7 +194,7 @@ header {
   border-radius: 2px 0 0 2px;
   box-shadow: inset 0 1px 2px #eee;
   color: #111;
-  padding:2px 6px;
+  padding: 2px 6px;
 
 }
 
@@ -194,22 +217,23 @@ header {
   /* Display & Box Model */
   width: 25px;
   height: 25px;
-  margin:0 10px 0 10px; /* top | right | bottom | left */
+  margin: 0 10px 0 10px;
+  /* top | right | bottom | left */
 
   /* Color */
-
   /* Text */
   text-align: center;
 
   /* Other */
 
 }
-.user-icon{
- /* Positioning */
+
+.user-icon {
+  /* Positioning */
   /* Display & Box Model */
   width: 40px;
   height: 40px;
-  margin:20px 20px 0 0;
+  margin: 20px 20px 0 0;
 
   /* Color */
   /* Text */
@@ -226,7 +250,7 @@ main {
 
   margin-top: 10px;
   /* Color */
- 
+
   /* Text */
   /* Other */
 
@@ -313,23 +337,27 @@ iframe {
   /* Text */
   /* Other */
 }
+
 .user {
- 
-/* top | right | bottom | left */
-margin: 10px 10px 0 0 ;
+
+  /* top | right | bottom | left */
+  margin: 10px 10px 0 0;
 }
-.replay{
-  margin-left:10px;
+
+.replay {
+  margin-left: 10px;
 }
+
 .commit-input {
-  margin:20px 20px 0 0;
+  margin: 20px 20px 0 0;
 
 }
+
 .comment {
   /* Positioning */
   /* Display & Box Model */
-border: 1px solid pink;
-margin:20px 20px 0 0;
+  border: 1px solid pink;
+  margin: 20px 20px 0 0;
   /* Color */
   /* Text */
   /* Other */
@@ -337,15 +365,16 @@ margin:20px 20px 0 0;
 
 
 .dis-like {
-    /* Positioning */
+  /* Positioning */
   /* Display & Box Model */
-  
-width:200px;
+
+  width: 200px;
   /* Color */
   /* Text */
   /* Other */
 
 }
+
 /*user comment section*/
 
 
@@ -379,18 +408,19 @@ aside {
   /* Display & Box Model */
   width: 200px;
   height: 200px;
-  margin-top:10px;
+  margin-top: 10px;
 
-margin-right:10px;
+  margin-right: 10px;
   /* Color */
   /* Text */
   /* Other */
 
 }
-.block {
-  margin-top:10px;
 
-/* top | right | bottom | left */
+.block {
+  margin-top: 10px;
+
+  /* top | right | bottom | left */
 
 }
 
@@ -405,11 +435,13 @@ hr {
   display: block;
 
 }
-.dis-like p{
-  margin: 10px 10px 0 0 ;
+
+.dis-like p {
+  margin: 10px 10px 0 0;
 
 }
-.p{
+
+.p {
   line-height: 20px;
 }
 
@@ -475,7 +507,7 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-text-align: center;
+  text-align: center;
 
   /* Color */
   /* Text */
