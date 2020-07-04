@@ -23,12 +23,12 @@
 /*debug*/
 
 body {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(247, 247, 247);
+  font-family: 'Roboto', sans-serif;
+
 }
 
 header {
-
-  border: 1px solid black;
 
   background-color: white;
 }
@@ -269,7 +269,11 @@ main {
   /* Text */
   /* Other */
 }
+.p-grey{
+  color:rgb(117, 117, 117);
+  line-height: 40px;
 
+}
 iframe {
   width: 50vw;
   height: 50vh;
@@ -283,22 +287,11 @@ iframe {
 
   /* Color */
   /* Text */
-  /* Other */
+  font-size: 18px;
+    /* Other */
 }
 
-.p-bold {
-  /* Positioning */
-  /* Display & Box Model */
 
-  /* Color */
-  color: rgb(73, 73, 73);
-  /* Text */
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 40px;
-  /* Other */
-}
 
 /*
 .right {
@@ -334,7 +327,7 @@ iframe {
   padding: 10px;
   white-space: nowrap;
   /* Color */
-  background-color: red;
+  background-color: rgb(190, 22, 22);
 
   /* Text */
   /* Other */
@@ -358,7 +351,6 @@ iframe {
 .comment {
   /* Positioning */
   /* Display & Box Model */
-  border: 1px solid pink;
   margin: 20px 20px 0 0;
   /* Color */
   /* Text */
@@ -401,13 +393,14 @@ aside {
   width: 200px;
   height: 200px;
   margin-top: 10px;
-
   margin-right: 10px;
   /* Color */
   /* Text */
   /* Other */
 
 }
+
+
 
 .block {
   margin-top: 10px;
