@@ -148,6 +148,7 @@ header {
   height: 28px;
 
   /* Color */
+  color:black;
   /* Text */
   /* Other */
 
@@ -271,8 +272,15 @@ main {
 }
 .p-grey{
   color:rgb(117, 117, 117);
-  line-height: 40px;
 
+}
+.p-blue{
+  color:#065fd4;
+
+}
+
+.margin{
+  margin-left:5px;
 }
 iframe {
   width: 50vw;
@@ -345,6 +353,7 @@ iframe {
 
 .commit-input {
   margin: 20px 20px 0 0;
+  width:100%;
 
 }
 
@@ -353,8 +362,13 @@ iframe {
   /* Display & Box Model */
   margin: 20px 20px 0 0;
   /* Color */
+
   /* Text */
   /* Other */
+}
+input{
+  background-color: rgb(247, 247, 247);
+
 }
 
 
@@ -370,7 +384,6 @@ iframe {
 }
 
 /*user comment section*/
-
 
 
 /*aside*/
@@ -414,6 +427,7 @@ hr {
   margin: 0.5em auto;
   border-style: inset;
   border-width: 1px;
+  color: aliceblue;
 }
 
 .block {
@@ -428,6 +442,7 @@ hr {
 
 .p {
   line-height: 20px;
+
 }
 
 .flex-center {
