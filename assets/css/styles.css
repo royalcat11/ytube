@@ -120,18 +120,17 @@ img {
 
 
 a {
-  color:grey;
+  color: grey;
   text-decoration: none;
 }
 
-a:hover {
-}
+a:hover {}
 
-a:active {
-}
+a:active {}
 
-a:visited {
-}
+a:visited {}
+
+
 header {
   /* Positioning */
   /* Display & Box Model */
@@ -142,8 +141,6 @@ header {
   /* Other */
 }
 
-
-
 .fa {
   /* Positioning */
   /* Display & Box Model */
@@ -151,7 +148,6 @@ header {
   height: 28px;
 
   /* Color */
-
   /* Text */
   /* Other */
 
@@ -159,10 +155,11 @@ header {
 }
 
 }
+
 .fa-bars {
   margin-left: 20px;
   margin-top: 10px;
-  color:red;
+  color: red;
 }
 
 .logo {
@@ -212,6 +209,10 @@ header {
 
 }
 
+.test {
+  fill: yellowgreen;
+}
+
 .icons {
   /* Positioning */
   /* Display & Box Model */
@@ -221,6 +222,7 @@ header {
   /* top | right | bottom | left */
 
   /* Color */
+  color: grey;
   /* Text */
   text-align: center;
 
@@ -391,17 +393,7 @@ aside {
   /* Other */
 }
 
-.toggle {
-  /* Positioning */
-  /* Display & Box Model */
 
-  /* Color */
-  /* Text */
-  /* Other */
-
-}
-
-.slideround {}
 
 .aside-img {
   /* Positioning */
@@ -528,4 +520,39 @@ hr {
   /* Other */
 
 
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.checkbox:checked+.switch::after {
+  left: 20px;
+}
+
+.checkbox:checked+.switch {
+  background-color: #7983ff;
+}
+
+.checkbox {
+  display: none;
 }
