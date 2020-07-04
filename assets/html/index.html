@@ -6,7 +6,7 @@
     <title>Youtube</title>
 
     <!--links-->
-    <link rel="stylesheet" href="/ytube/assets/css/styles2.css">
+    <link rel="stylesheet" href="/ytube/assets/css/styles.css">
     <link rel="stylesheet" href="/ytube/assets/images/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -111,13 +111,12 @@
 
 
                 </div>
-                <div class="flex-end">
-                    <form action="#">
+                <div class="flex-between">
                         <label for="sub" class="sub-button">
                             <button id="sub" type="submit">SUBSCRIBE</button>
                         </label>
-                    </form>
-                    <img class="icons" src="/ytube/assets/images/notification.svg" alt=" a notification logo">
+                        <img class="icons" src="/ytube/assets/images/notification.svg" alt=" a notification logo">
+
                 </div>
             </section>
             <hr>
@@ -141,7 +140,7 @@
 
             </section>
             <section class=" user-comment flex-start">
-                <img class="icons" src="/ytube/assets/images/user.svg" alt="user logo">
+                <img class="user-icon" src="/ytube/assets/images/user.svg" alt="user logo">
                 <label class="commit-input" for="commit">
                     <input class="commit" id="commit" type="text" name="commit" placeholder="Add a public comment...">
                     <hr>
@@ -152,9 +151,9 @@
 
             <article class="comments ">
                 <div class="flex-start">
-                    <img class="icons" src="/ytube/assets/images/user.svg" alt="user logo">
+                    <img class="user-icon" src="/ytube/assets/images/user.svg" alt="user logo">
 
-                    <div class="block">
+                    <div class="block p">
                         <p>user name</p>
                         <p>1 year ago</p>
 
@@ -165,11 +164,11 @@
 
                         <div class="flex-start dis-like">
                             <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                                class="icons svg">
-                                <g class="icons svg">
+                                class="icons user">
+                                <g class="icons user">
                                     <path
                                         d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                                        class="icons svg"></path>
+                                        class="icons user"></path>
                                 </g>
                             </svg>
                             <p>174</p>
@@ -177,16 +176,16 @@
                             <!--dislike-->
 
                             <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                                class="icons svg">
+                                class="icons user">
 
-                                <g class="icons svg">
+                                <g class="icons user">
                                     <path
                                         d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                                        class="icons svg"></path>
+                                        class="icons user"></path>
                                 </g>
                             </svg>
                             <p>174</p>
-                            <p>Replay</p>
+                            <p> <span class="replay"> Replay</span></p>
 
 
                         </div>
@@ -228,7 +227,7 @@
                 </div>
             </div>
             <hr>
-            <div class="flex-start">
+            <div class="flex-start aside">
                 <a href="#"><img class="aside-img" src="/ytube/assets/images/aside/japan.jpg" alt="japanese store"></a>
                 <div class="block">
 
